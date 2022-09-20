@@ -3,10 +3,10 @@
 /**
  * _puts - prints a string
  * @str: string to be printed
- * Return: string to be printed
+ * Return: string
  */
 void _puts(char *str)
-
+{
 	int i;
 
 	for (i = 0; str[1] != '\0'; i++)
@@ -14,3 +14,4 @@ void _puts(char *str)
 		_putchar(str[i]);
 	}
         _putchar('\n');
+}
